@@ -1,5 +1,7 @@
 using System.Collections.Concurrent;
 
+namespace SlackTimezoneTracker.Model;
+
 public class InMemoryWorkspaceStore
 {
     private readonly ConcurrentDictionary<string, WorkspaceInstall> _workspaces = new();

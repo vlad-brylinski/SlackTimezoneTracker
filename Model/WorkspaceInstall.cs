@@ -1,3 +1,5 @@
+namespace SlackTimezoneTracker.Model;
+
 public class WorkspaceInstall
 {
     public string TeamId { get; set; } = null!;
